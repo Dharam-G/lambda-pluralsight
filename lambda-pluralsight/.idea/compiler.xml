@@ -22,12 +22,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="module-1" />
+        <module name="spark-lambda" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="lambda-pluralsight" target="1.5" />
       <module name="module-1" target="1.5" />
+      <module name="spark-lambda" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
